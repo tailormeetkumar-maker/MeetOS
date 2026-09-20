@@ -1,0 +1,40 @@
+# Git
+.git/
+
+# Build artifacts
+*.o
+*.bin
+*.raw
+kernel_size.inc
+os-image.bin
+
+# Backup / experimental source files
+*.backup
+*.before_*
+*.working.c
+*.pcm-*
+*.scrollback-*
+*.broken.py
+*.openai_backup.py
+
+# Development/helper files not part of the OS
+add_scrollback.py
+all_files.txt
+linker.id
+
+# Python environments
+.venv/
+annabelle-env/
+__pycache__/
+*.pyc
+
+# Logs / packet captures
+*.log
+*.pcap
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
